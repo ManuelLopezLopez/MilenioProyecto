@@ -10,13 +10,17 @@ body {
 	font: normal 400 13px/1 'ralewayregular', Arial, sans-serif;
 }
 
-.headerContainer {
+.header{
 	width: 70%;
 	margin: 0 auto;
 	background-color: rgba(0, 0, 0, 0.275);
 	color: white;
 	font-size: 16px;
 	text-transform: uppercase;
+}
+.headerContainer{
+	background-image: url("../Imagenes/05/alcazaba-de-noche-homeimage-1280prog.jpg");
+
 }
 
 #headerNav {
