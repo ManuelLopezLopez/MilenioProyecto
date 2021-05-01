@@ -53,6 +53,7 @@ body {
 
 .headerSub:hover .headerSubElements {
 	display: block;
+	z-index: 1;
 }
 
 .headerSubElements a::before {
@@ -84,4 +85,30 @@ body {
 
 #headerNav img {
 	margin: -20px 0 -20px 0;
+}
+
+body {
+	background-color: rgb(208, 208, 208);
+}
+
+.headerImg {
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+
+.headerImg .img {
+	background-image: url(../img/alcazaba-de-noche-homeimage-1280prog.jpg);
+	background-position: 50% 50%;
+	width: 100vw;
+	height: 181px;
+}
+
+.mainContainer {
+	position: absolute;
+	width: 70%;
+	left: 15%;
+	top: 86px;
+	height: 100%;
+	background-color: rgb(255, 255, 255);
 }
