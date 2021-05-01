@@ -11,12 +11,14 @@ body {
 }
 
 .headerContainer {
+	position: absolute;
 	width: 70%;
-	margin: 0 auto;
-	background-color: rgba(0, 0, 0, 0.275);
+	left: 15%;
+	background-color: rgba(0, 0, 0, 0.542);
 	color: white;
 	font-size: 16px;
 	text-transform: uppercase;
+	box-shadow: 0 2px 4px 0 #474747;
 }
 
 #headerNav {
@@ -73,4 +75,13 @@ body {
 #headerNav a:hover,
 #headerNav li:hover {
 	background-color: #fd9007;
+}
+
+#headerNav img {
+	height: 45px;
+	width: 45px;
+}
+
+#headerNav img {
+	margin: -20px 0 -20px 0;
 }
