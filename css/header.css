@@ -10,7 +10,7 @@ body {
 	font: normal 400 13px/1 'ralewayregular', Arial, sans-serif;
 }
 
-.headerContainer {
+.headerContainer{
 	position: absolute;
 	width: 70%;
 	left: 15%;
