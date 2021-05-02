@@ -20,6 +20,8 @@ body {
 
 .headerImg .img {
 	background-image: url(../img/alcazaba-de-noche-homeimage-1280prog.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
 	background-position: 50% 50%;
 	width: 100%;
 	height: 181px;
