@@ -1,0 +1,41 @@
+.mainContainer {
+	display: flex;
+	flex-direction: column;
+	font: normal 400 13px/1 'ralewayregular', Arial, sans-serif;
+}
+
+.mapa {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mainContainer h2 {
+	font-size: 26px;
+	font-family: 'raleway';
+	color: #4f4f4f;
+	font-weight: 300;
+}
+
+hr {
+	height: 1px;
+	/*width: 974px;*/
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 20px 0px;
+}
+
+.imagenMapa {
+	width: 974px;
+	height: 592.767px;
+	box-shadow: 0 2px 10px 0 #474747;
+}
+
+.containerRecintos {
+	width: 220px;
+	height: 543px;
+	border: #fd9007 4px solid;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px 0 #474747;
+}
