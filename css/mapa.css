@@ -9,6 +9,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .mainContainer h2 {
@@ -20,10 +21,17 @@
 
 hr {
 	height: 1px;
-	/*width: 974px;*/
 	border: 0;
 	border-top: 1px solid #cccccc;
 	margin: 20px 0px;
+}
+
+.title hr {
+	width: 974px;
+}
+
+.redesSociales hr {
+	width: 90px;
 }
 
 .imagenMapa {
@@ -38,4 +46,36 @@ hr {
 	border: #fd9007 4px solid;
 	border-radius: 10px;
 	box-shadow: 0 2px 10px 0 #474747;
+}
+
+.imagenMapa img {
+	width: 100%;
+	height: auto;
+}
+
+.redesSociales {
+	color: #808080;
+	margin-top: 20px;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.compartir {
+	margin-bottom: 20px;
+}
+
+.facebook {
+	width: 40px;
+	height: 40px;
+	background-color: blue;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.twitter {
+	width: 40px;
+	height: 40px;
+	background-color: rgb(98, 98, 253);
+	border-radius: 50%;
+	display: inline-block;
 }
