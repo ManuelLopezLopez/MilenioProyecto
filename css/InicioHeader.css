@@ -19,12 +19,12 @@ body {
 }
 
 .headerImg .img {
-	background-image: url(../img/alcazabaInicio.jpg);
+	background-image: url(../img/alcazaba-de-noche-homeimage-1280prog.jpg);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-position: 50% 50%;
 	width: 100%;
-	height: 181px;
+	height: 560px;
 }
 
 /* Menu del header */
@@ -109,7 +109,12 @@ ul li {
 .headerSubElements a li {
 	padding: 20px;
 }
+/*Contenedor del titulo*/
+.titleContainer{
+	width: 100%;
+	height:560px;
 
+}
 /* Contenedor del contenido de la pagina */
 
 .mainContainer {
