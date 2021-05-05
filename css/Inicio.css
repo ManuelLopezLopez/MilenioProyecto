@@ -1,14 +1,5 @@
-.mainContainer {
-	display: flex;
-	flex-direction: column;
-	font: normal 400 13px/1 'ralewayregular', Arial, sans-serif;
-}
-h1 {
-    font-family: 'ralewayextrabold';
-    font-size: 61px;
-    text-transform: uppercase;
-    margin-bottom: 25px;
-}
+
+
 
 .title{
   margin: 0;
@@ -37,20 +28,17 @@ text-align:center;
 color:
 }
 /**  page_title  **/
-.title, .title p{
-font-size:13px;
-line-height: 1;
-}
+
 .title{
 padding-top:250px;
 padding-bottom:190px;
 text-shadow:1px 1px 3px #505050;
 }
 
-.title, .Bienvenida h1 span {
+h1 span {
   color:#fd9007;
 }
 
 body{
-  color:gray;
+  color:white;
 }
