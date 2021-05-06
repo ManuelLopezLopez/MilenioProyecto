@@ -10,6 +10,7 @@ body {
 	flex-direction: column;
 	font: normal 400 13px/1 'ralewayregular', Arial, sans-serif;
 	align-items: center;
+	background-color: rgb(235, 235, 235);
 }
 
 .headerImg {
