@@ -109,6 +109,7 @@ ul li {
 .headerSubElements a li {
 	padding: 20px;
 }
+
 /*Contenedor del titulo*/
 
 /* Contenedor del contenido de la pagina */
@@ -119,11 +120,14 @@ h1 {
     margin-bottom: 25px;
 }
 .mainContainer {
+	display:flex;
+	flex-direction: column;
 	background-color: white;
 	width: 85%;
+	margin: 0px 0px 20px;
 	margin-bottom: 60px;
 	align-self: center;
-	min-height: 591px;
+	min-height: 1500px;
 	box-shadow: 0 2px 10px 0 #474747;
 }
 .banner{
@@ -137,7 +141,74 @@ h1 {
 	font: normal 400 28px/1 'raleway', Arial, sans-serif;
 
 }
+.folletos{
+	align-items: center;
+	width:100%;
+	padding-left: 330px;
+	margin-top: 30px;
+	margin-bottom: 60px;
 
+}
+hr.separe {
+    height: 10px;
+    background: url(../img/four_gray_px.png) repeat-x 50% 50%;
+    border: 0 none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+	}
+.article-text{
+	padding:40px 0 0;
+	font: normal 400 16px/1 'raleway', Arial, sans-serif;
+	line-height: 1.4;
+
+}
+h2{
+	margin-left: 30px;
+	color:grey;
+	font: normal 400 24px/1 'raleway', Arial, sans-serif;
+	margin-bottom: 25px;
+	font-weight: 400;
+}
+h3{
+	margin-top: 20px;
+	margin-left: 30px;
+ 	font: normal 400 21px/1 'raleway', Arial, sans-serif;
+	margin-bottom: 1px;
+
+
+}
+.slide-container li{
+	width:25%;
+	float:left;
+
+
+}
+.box{
+ border-width: 1px;
+ border-style: solid;
+ padding: 6px;
+ position: relative;
+ border-color: #e1e1e1;
+ margin-left:30px;
+ margin-right: 20px;
+
+}
+.box_inner{
+	position: relative;
+}
+a{
+	color:#fd9007;
+}
+a:hover{
+	color:black;
+}
+li p{
+	margin-top: 10px;
+	margin-left: 30px;
+	color:grey;
+	line-height: 1.7;
+	font: normal 400 13px 'raleway', Arial, sans-serif;
+}
 /* Footer */
 
 .footerContainer {
