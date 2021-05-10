@@ -18,7 +18,7 @@ body {
 }
 
 .wrap .img {
-	background-image: url(../img/alcazaba-de-noche-homeimage-1280prog.jpg);
+	background-image: url(../img/Inicio/alcazaba-de-noche-homeimage-1280prog.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -141,16 +141,17 @@ h1 {
 
 }
 .folletos{
-	align-items: center;
+	display:flex;
+	justify-content: center;
 	width:100%;
-	padding-left: 330px;
+
 	margin-top: 30px;
 	margin-bottom: 60px;
 
 }
 hr.separe {
     height: 10px;
-    background: url(../img/four_gray_px.png) repeat-x 50% 50%;
+    background: url(../img/Inicio/four_gray_px.png) repeat-x 50% 50%;
     border: 0 none;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -194,6 +195,7 @@ h3{
 }
 .box_inner{
 	position: relative;
+
 }
 a{
 	color:#fd9007;
