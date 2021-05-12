@@ -54,56 +54,71 @@
             </div>
 
             <div class="mapa">
-                <div class="imagenMapa"><img src="../img/mapa/mapa/inicial.jpg" alt=""></div>
+                <div class="imagenMapa"><img class="mapaImg" src="../img/mapa/mapa/inicial.jpg" alt=""></div>
                 <div class="containerRecintos">
                     <div class="recintosTitulos">Recintos-Lugares</div>
                     <ul>
-                        <li><a href="">Mapa Inicial</a></li>
-                        <li><a href="">Al-Medina</a>
+                        <li><a onclick="cambioImagen('inicial')" href="javascript:void(0)">Mapa Inicial</a></li>
+                        <li><a onclick="cambioImagen('al_medina')" href="javascript:void(0)">Al-Medina</a>
                             <ul>
-                                <li><a href="">Alcazaba</a>
+                                <li><a onclick="cambioImagen('alcazaba')" href="javascript:void(0)">Alcazaba</a>
                                     <ul>
-                                        <li><a href="">Palacio Al-Mutasin</a></li>
-                                        <li><a href="">Medina de la Alcazaba</a></li>
+                                        <li><a onclick="cambioImagen('al_mutasin')" href="javascript:void(0)">Palacio Al-Mutasin</a></li>
+                                        <li><a onclick="cambioImagen('medina_alcazaba')" href="javascript:void(0)">Medina de la Alcazaba</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="">Alcaiceria</a></li>
-                                <li><a href="">Atarazanas</a></li>
-                                <li><a href="">Mezquita</a></li>
-                                <li><a href="">Puertas de Al-Medina</a>
+                                <li><a onclick="cambioImagen('alcaiceria')" href="javascript:void(0)">Alcaiceria</a></li>
+                                <li><a onclick="cambioImagen('atarazanas')" href="javascript:void(0)">Atarazanas</a></li>
+                                <li><a onclick="cambioImagen('mezquita')" href="javascript:void(0)">Mezquita</a></li>
+                                <li><a onclick="cambioImagen('puertas_medina')" href="javascript:void(0)">Puertas de Al-Medina</a>
                                     <ul>
-                                        <li><a href="">Aceiteros</a></li>
-                                        <li><a href="">Atarazanas</a></li>
-                                        <li><a href="">Imagen</a></li>
-                                        <li><a href="">Puerto</a></li>
-                                        <li><a href="">Socorro</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="">La Musalla</a>
-                            <ul>
-                                <li><a href="">Al-Riyl</a></li>
-                                <li><a href="">Aljibes</a></li>
-                                <li><a href="">Puertas de La Musalla</a>
-                                    <ul>
-                                        <li><a href="">La Vega</a></li>
-                                        <li><a href="">Mar</a></li>
-                                        <li><a href="">Montaña</a></li>
-                                        <li><a href="">Musa</a></li>
-                                        <li><a href="">Negros</a></li>
-                                        <li><a href="">Pechina</a></li>
+                                        <li><a onclick="cambioImagen('p_aceiteros')" href="javascript:void(0)">Aceiteros</a></li>
+                                        <li><a onclick="cambioImagen('p_atarazanas')" href="javascript:void(0)">Atarazanas</a></li>
+                                        <li><a onclick="cambioImagen('p_imagen')" href="javascript:void(0)">Imagen</a></li>
+                                        <li><a onclick="cambioImagen('p_puerto')" href="javascript:void(0)">Puerto</a></li>
+                                        <li><a onclick="cambioImagen('p_socorro')" href="javascript:void(0)">Socorro</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="">Al-Hawd</a>
+                        <li><a onclick="cambioImagen('musalla')" href="javascript:void(0)">La Musalla</a>
                             <ul>
-                                <li><a href="">Puerta Faro</a></li>
+                                <li><a onclick="cambioImagen('al_riyl')" href="javascript:void(0)">Al-Riyl</a></li>
+                                <li><a onclick="cambioImagen('aljibes')" href="javascript:void(0)">Aljibes</a></li>
+                                <li><a onclick="cambioImagen('puertas_musalla')" href="javascript:void(0)">Puertas de La Musalla</a>
+                                    <ul>
+                                        <li><a onclick="cambioImagen('p_vega')" href="javascript:void(0)">La Vega</a></li>
+                                        <li><a onclick="cambioImagen('p_mar')" href="javascript:void(0)">Mar</a></li>
+                                        <li><a onclick="cambioImagen('p_montana')" href="javascript:void(0)">Montaña</a></li>
+                                        <li><a onclick="cambioImagen('p_musa')" href="javascript:void(0)">Musa</a></li>
+                                        <li><a onclick="cambioImagen('p_negros')" href="javascript:void(0)">Negros</a></li>
+                                        <li><a onclick="cambioImagen('p_pechina')" href="javascript:void(0)">Pechina</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
-                        <li><a href="">Puertas</a></li>
+                        <li><a onclick="cambioImagen('al_hawd')" href="javascript:void(0)">Al-Hawd</a>
+                            <ul>
+                                <li><a onclick="cambioImagen('p_faro')" href="javascript:void(0)">Puerta Faro</a></li>
+                            </ul>
+                        </li>
+                        <li><a onclick="cambioImagen('puertas')" href="javascript:void(0)">Puertas</a></li>
                     </ul>
+                </div>
+            </div>
+
+            <div class="informacion">
+                <div class="imagenes">
+                    <div class="imagen1"><img class="informacionImagen img1" src="../img/mapa/descripcion/Monte1.jpg" alt=""></div>
+                    <div class="textoImagen">Localizacion</div>
+                    <div class="imagen2"><img class="informacionImagen img2" src="../img/mapa/descripcion/aceiteros2.jpg" alt=""></div>
+                </div>
+
+                <div class="textoDescripcion">
+                    <h2>TITULO TEXTO</h2>
+                    <p>Aunque los edificios actuales nos ocultan el perfil original de la ciudad y resulta difícil de percibir, los aljibes están situados en el punto más alto del arrabal de Musalla al que podía llegar el agua a través de acequias y conductos solo de forma 'rodada' desde las fuentes de la Alhadra, lo que delata una depurada técnica y cálculo por parte de sus constructores. Antes de cruzar bajo las murallas, el agua salvaba una rambla mediante un acueducto entre los puntos que hoy ocupan el chaflán de la Casa de las Mariposas y la estatua de Nicolás Salmerón.</p>
+                    <br>
+                    <p>Construidos junto a la Puerta de Pechina, (en cuyo patio interior se abrió en fecha no determinada un pasillo de acceso hasta ellos donde estuvo situado 'El Rinconcillo') constaban de las dos naves adosadas que hoy se conservan, otras dos localizadas en la última excavación arqueológica, varios distribuidores y decantadores de arena entre la muralla (acera de la estatua de Salmerón) y las naves conservadas.</p>
                 </div>
             </div>
 
@@ -114,7 +129,7 @@
                 <div class="twitter"></div>
             </div>
 
-            <div class="informacion"></div>
+
 
         </div>
 
@@ -123,5 +138,7 @@
         </div>
 
     </body>
+
+    <script src="../js/mapa/mapa.js"></script>
 
 </html>
