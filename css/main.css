@@ -10,7 +10,21 @@ body {
 	flex-direction: column;
 	font: normal 400 13px/1 'ralewayregular', Arial, sans-serif;
 	align-items: center;
-	background-color: rgb(235, 235, 235);
+	background-image: repeating-linear-gradient(
+			135deg,
+			rgb(240, 240, 240) 0px,
+			rgb(255, 255, 255) 2px,
+			transparent 1px,
+			transparent 60px
+		),
+		repeating-linear-gradient(
+			45deg,
+			rgb(237, 237, 237) 0px,
+			rgb(255, 255, 255) 2px,
+			transparent 1px,
+			transparent 60px
+		),
+		repeating-linear-gradient(90deg, rgba(203, 203, 203, 0.2), rgba(203, 203, 203, 0.2));
 }
 
 .headerImg {
