@@ -1,44 +1,42 @@
-
-
-
-.title{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-
+.title {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
 }
-.container{
-  display:flex;
-  flex-direction: column;
-
+.container {
+	display: flex;
+	flex-direction: column;
 }
 /**  Bienvenida  **/
 
-
 .Bienvenida {
-width: 100%;
-text-align: center;
-display:flex;
-flex-direction: column;
-text-align:center;
-color:
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: ;
 }
 /**  page_title  **/
 
-.title{
-padding-top:250px;
-padding-bottom:190px;
-text-shadow:1px 1px 3px #505050;
+.title {
+	padding-top: 250px;
+	padding-bottom: 190px;
+	text-shadow: 1px 1px 3px #505050;
 }
 
 h1 span {
-  color:#fd9007;
+	color: #fd9007;
 }
 
-body{
-  color:white;
+body {
+	color: white;
+}
+
+.fullwidth {
+	width: 100%;
 }
