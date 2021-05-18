@@ -380,3 +380,7 @@ li p{
 	left: -10px;
 	top: -1px;
 }
+.fullwidth {
+	width: 100%;
+}
+

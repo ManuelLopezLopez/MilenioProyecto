@@ -298,3 +298,9 @@ margin-top:50px;
 	left: -10px;
 	top: -1px;
 }
+a:hover{
+  color: #464646;
+}
+.redesFooter h3{
+  margin-left: 30px;
+}
