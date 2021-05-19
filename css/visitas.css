@@ -1,6 +1,6 @@
 .mainContainer {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	font: normal 400 13px/1 'raleway', Arial, sans-serif;
 }
 
@@ -84,13 +84,16 @@ h2 {
 
 .textContainer {
 	display: flex;
-	width: 100%;
-	flex-direction: row;
+	width: 74%;
+	flex-direction: column;
 	justify-content: space-between;
+	float: left;
 }
 
 .listContainer {
 	width: 950px;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 
 .list {
@@ -116,6 +119,7 @@ h2 {
 	border: 1px solid #cccccc;
 	height: min-content;
 	width: 300px;
+	margin-left: auto;
 }
 
 .list ul li {
@@ -170,4 +174,22 @@ h2 {
     border-width: 1px;
     border-style: solid;
     border-color: #d5d5d5;
+}
+
+h2, a {
+	color: #fd9007;
+}
+
+.post .article_img {
+	margin: 18px;
+	float: left;
+}
+
+.post .article_text {
+	padding: 25px 20px 30px 20px;
+	font-size: 16px;
+}
+
+.post p {
+	margin-bottom: 20px;
 }
