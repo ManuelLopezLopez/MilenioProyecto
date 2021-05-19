@@ -118,7 +118,13 @@ h2 {
 	color:#464646;
 
 }
+.parrafo{
+	margin: 30px 0;
+  text-indent: 20px;
+	font: normal 400 16px/1.4 'raleway', Arial, sans-serif;
+	color:#808080
 
+}
 
 .descripcionIni {
 	margin: 20px 0;
