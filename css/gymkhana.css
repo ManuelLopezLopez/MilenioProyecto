@@ -1,6 +1,6 @@
 .mainContainer {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	font: normal 400 13px/1 'raleway', Arial, sans-serif;
 }
 
@@ -84,16 +84,13 @@ h2 {
 
 .textContainer {
 	display: flex;
-	width: 74%;
-	flex-direction: column;
+	width: 100%;
+	flex-direction: row;
 	justify-content: space-between;
-	float: left;
 }
 
 .listContainer {
 	width: 950px;
-	margin-left: 25px;
-	margin-right: 25px;
 }
 
 .list {
@@ -103,15 +100,41 @@ h2 {
 
 .liCategory {
 	margin: 30px 0;
+
+}
+.liCategory ul li {
+	line-height: 0.8;
+
 }
 
-.liCategory ul li {
-	font-weight: bold;
+
+.liCategory,
+.list ul li a{
+	color:#fd9007;
+
+}
+.liCategory,
+.list ul li a:hover{
+	color:#464646;
+
+}
+.parrafo{
+	margin: 30px 0;
+  text-indent: 20px;
+	font: normal 400 16px/1.4 'raleway', Arial, sans-serif;
+	color:#808080
+
 }
 
 .descripcionIni {
 	margin: 20px 0;
 	line-height: 1.3;
+}
+.descripcionIni a{
+  color:#fd9007;
+}
+.descripcionIni a:hover{
+  color:#464646;
 }
 
 .navLateral {
@@ -119,13 +142,11 @@ h2 {
 	border: 1px solid #cccccc;
 	height: min-content;
 	width: 300px;
-	margin-left: auto;
 }
 
 .list ul li {
-	padding: 5px 0;
-    margin-left: 20px;
-    list-style-type:none
+	padding: 10px 0;
+	margin-left: 20px;
 }
 
 .navLateral h2 {
@@ -158,38 +179,55 @@ h2 {
 	top: 4px;
 }
 
-.enl {
-    font-size: 18px;
-    color: #fd9007;
-}
-
-.tx {
-    font-size: 22px;
-    font-weight: normal;
-    margin: 10px 0;
-}
-
-.post {
-    margin-bottom: 35px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #d5d5d5;
-}
-
-h2, a {
+.tippy_link {
 	color: #fd9007;
+	font-weight: normal;
+	border-bottom: 1px dotted;
+	cursor: pointer;
 }
 
-.post .article_img {
-	margin: 18px;
-	float: left;
+.tippy_tip {
+	visibility: hidden;
 }
 
-.post .article_text {
-	padding: 25px 20px 30px 20px;
-	font-size: 16px;
+.tippy_tip:target {
+	height: auto;
+	position: absolute;
+	width: 600px;
+	left: 570.359px;
+	top: 584px;
+	opacity: 100;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px #888, 4px 4px 6px #888;
+	z-index: 50;
+	visibility: visible;
 }
 
-.post p {
-	margin-bottom: 20px;
+.tippy_header {
+	height: auto;
+	width: 590px;
+	background-color: #ccc;
+	padding: 5px;
+	border-radius: 5px 5px 0 0;
+	font-weight: bold;
+	text-align: left;
+}
+
+.tippy_closelink {
+	float: right;
+	cursor: pointer;
+	font-size: .85em;
+	color: #444;
+	padding: 0 5px 5px 10px;
+}
+
+.tippy_body {
+	height: auto;
+	width: 570px;
+	background-color: white;
+	padding: 10px 15px 10px 15px;
+	max-height: 275px;
+	border-radius: 0 0 5px 5px;
+	position: relative;
+	overflow: auto;
 }
