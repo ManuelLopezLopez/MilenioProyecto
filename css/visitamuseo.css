@@ -20,6 +20,24 @@ hr {
 .redesSociales hr {
 	width: 90px;
 }
+h2.tercero{
+	font-size: 30px;
+	color:#808080;
+}
+h3.concurso{
+	margin-top: 20px;
+	font-weight: normal;
+	font-size: 22px;
+	color: #808080;
+	margin-bottom: 10px;
+
+}
+.fotos img{
+	width:100%;
+	height: auto;
+	margin-bottom: 15px;
+
+}
 
 .redesSociales {
 	color: #808080;

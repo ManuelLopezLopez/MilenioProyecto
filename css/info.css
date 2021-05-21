@@ -10,8 +10,8 @@
 	display: none;
 	position: absolute;
 	bottom: -400px;
-	left: 50%;
-	transform: translateX(-50%);
+	left: 0;
+
 	width: 500px;
 	height: 400px;
 	padding: 0;
