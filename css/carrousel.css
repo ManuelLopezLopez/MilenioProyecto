@@ -1,0 +1,107 @@
+.carrousel {
+	position: relative;
+}
+
+#retroceder {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	height: 100%;
+	width: 30%;
+	transform: translateY(-50%);
+	border: 0;
+	cursor: pointer;
+	background-color: unset;
+	background-image: linear-gradient(0.25turn, #00000090, #00000000);
+	opacity: 0.2;
+	color: transparent;
+	transition: all 0.1s linear;
+}
+
+#retroceder::after {
+	content: "\2B9C";
+	font-size: 40px;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+}
+
+#retroceder:hover {
+	opacity: 1;
+}
+
+#avanzar {
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	height: 100%;
+	width: 30%;
+	transform: translateY(-50%);
+	border: 0;
+	cursor: pointer;
+	background-color: unset;
+	background-image: linear-gradient(0.25turn, #00000000, #00000090);
+	opacity: 0.2;
+	color: transparent;
+	transition: all 0.1s linear;
+}
+
+#avanzar::after {
+	content: "\2B9E";
+	font-size: 40px;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+}
+
+#avanzar:hover {
+	opacity: 1;
+}
+
+.controles {
+	transform: translateY(-50px);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	height: 50px;
+}
+
+.controles button {
+	width: 50px;
+	position: relative;
+	background-color: unset;
+	color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+button:disabled {
+	opacity: 0;
+	cursor: initial;
+}
+
+#play::after {
+	content: "\23F5";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 40px;
+	text-shadow: 0 0 2px black;
+}
+
+#stop::after {
+	content: "\23F8";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 40px;
+	text-shadow: 0 0 2px black;
+}
