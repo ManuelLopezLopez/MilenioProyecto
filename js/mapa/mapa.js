@@ -87,3 +87,9 @@ var enlaces = {
     puertas:"",
     c_actual:""
 }
+
+var sliderMapa = document.getElementsByClassName("sliderMapa")[0];
+
+sliderMapa.addEventListener("input", function(){
+    document.getElementsByClassName('mapaImg')[0].style.opacity = 1 - (sliderMapa.value / 100);
+});
