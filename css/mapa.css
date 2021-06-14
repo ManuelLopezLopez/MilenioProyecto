@@ -212,7 +212,7 @@ h2 {
 }
 
 .imagenMapa {
-	background-image: url("../img/mapa/mapa/c_actual.jpg");
+	background-image: none;
 	background-size: cover;
 }
 
@@ -227,6 +227,7 @@ h2 {
 
 .sliderMapa {
 	width: 100%;
+	display: none;
 }
 
 input[type=range] {

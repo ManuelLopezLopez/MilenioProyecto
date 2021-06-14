@@ -6,7 +6,18 @@ function cambioImagen(valor) {
 
     if(valor == "inicial" || valor == "puertas" || valor == "puertas_musalla" || valor == "puertas_medina" || valor == "c_actual"){
         document.getElementsByClassName('informacion')[0].style.display = "none";
+    }
 
+    if(valor == "c_actual"){
+        document.getElementsByClassName("imagenMapa")[0].style.backgroundImage = "url('../img/mapa/mapa/alcazaba.jpg')";
+        sliderMapa.style.display = "unset";
+        document.getElementsByClassName('mapaImg')[0].style.opacity = 1;
+        sliderMapa.value = 0;
+    }else{
+        document.getElementsByClassName("imagenMapa")[0].style.backgroundImage = "none";
+        sliderMapa.style.display = "none";
+        document.getElementsByClassName('mapaImg')[0].style.opacity = 1;
+        sliderMapa.value = 100;
     }
 
     if(valor == "medina_alcazaba" || valor == "al_mutasin"){
