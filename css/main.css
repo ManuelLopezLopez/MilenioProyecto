@@ -164,18 +164,19 @@ ul li {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	width: 1332px;
+	width: 90%;
 }
 
 .footerColumns > div {
-	margin-right: 100px;
+	margin-right: 10%;
 }
 
 .copyright {
 	color: #9d9d9d;
 	font-family: "raleway";
 	font-size: 13px;
-	width: 1332px;
+	width: 90%;
+	/*width: 1332px;*/
 }
 
 .copyright hr {

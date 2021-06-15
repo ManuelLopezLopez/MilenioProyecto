@@ -227,7 +227,7 @@ li p{
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	width: 1332px;
+	width: 90%;
 }
 
 .footerColumns > div {
@@ -383,4 +383,3 @@ li p{
 .fullwidth {
 	width: 100%;
 }
-
