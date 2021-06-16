@@ -141,7 +141,7 @@ ul li {
 .mainContainer {
 	background-color: white;
 	padding: 50px 25px;
-	width: 1332px; /* 90%; */
+	width: 90%; /* 90%; */
 	margin-bottom: 60px;
 	align-self: center;
 	min-height: 591px;
