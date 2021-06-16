@@ -24,6 +24,7 @@ window.wheelzoom = (function(){
 		var bgPosY;
 		var previousEvent;
 		var transparentSpaceFiller;
+		var maximoZoom = 10;
 
 		function setSrcToBackground(img) {
 			img.style.backgroundRepeat = 'no-repeat';
@@ -47,6 +48,8 @@ window.wheelzoom = (function(){
 
 			img.style.backgroundSize = bgWidth+'px '+bgHeight+'px';
 			img.style.backgroundPosition = bgPosX+'px '+bgPosY+'px';
+			document.getElementsByClassName('mapaActual')[0].style.backgroundSize = bgWidth+'px '+bgHeight+'px';
+			document.getElementsByClassName('mapaActual')[0].style.backgroundPosition = bgPosX+'px '+bgPosY+'px';
 		}
 
 		function reset() {
@@ -96,10 +99,19 @@ window.wheelzoom = (function(){
 				bgHeight = Math.min(height*settings.maxZoom, bgHeight);
 			}
 
-			// Take the percent offset and apply it to the new size:
-			bgPosX = offsetX - (bgWidth * bgRatioX);
-			bgPosY = offsetY - (bgHeight * bgRatioY);
-
+			console.log(bgPosX, bgPosY, offsetX, offsetY);
+			// Prevent zooming in beyond the starting size
+			if (bgWidth >= width*maximoZoom || bgHeight >= height*maximoZoom) {
+				bgWidth = width*maximoZoom-1;
+				bgHeight = height*maximoZoom-1;
+			} else {
+				// Take the percent offset and apply it to the new size:
+				bgPosX = offsetX - (bgWidth * bgRatioX);
+				bgPosY = offsetY - (bgHeight * bgRatioY);
+				console.log(bgPosX, bgPosY, offsetX, offsetY);
+				updateBgStyle();
+			}
+			
 			// Prevent zooming out beyond the starting size
 			if (bgWidth <= width || bgHeight <= height) {
 				reset();

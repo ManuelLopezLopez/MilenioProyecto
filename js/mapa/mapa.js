@@ -9,7 +9,7 @@ function cambioImagen(valor) {
     }
 
     if(valor == "c_actual"){
-        document.getElementsByClassName("imagenMapa")[0].style.backgroundImage = "url('../img/mapa/mapa/alcazabaa.jpg')";
+        document.getElementsByClassName("imagenMapa")[0].style.backgroundImage = "url('../img/mapa/mapa/mapaActual.jpg')";
         sliderMapa.style.display = "unset";
         document.getElementsByClassName('mapaImg')[0].style.opacity = 1;
         sliderMapa.value = 0;
