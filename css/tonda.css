@@ -1,3 +1,4 @@
+/* Cuerpo */
 .mainContainer {
 	display: flex;
 	flex-direction: column;
@@ -17,6 +18,8 @@ hr {
 	border-top: 1px solid #cccccc;
 	margin: 20px 0px;
 }
+
+/* Redes Sociales */
 .redesSociales hr {
 	width: 90px;
 }
@@ -78,6 +81,7 @@ hr {
 	filter: invert(100%) sepia(0%) saturate(7461%) hue-rotate(31deg) brightness(109%) contrast(93%);
 }
 
+/* Textos */
 h2 {
 	margin-bottom: 20px;
 }
@@ -89,6 +93,27 @@ h2 {
 	justify-content: space-between;
 }
 
+.parrafo{
+	margin: 30px 0;
+	text-indent: 20px;
+	font: normal 400 16px/1.4 'raleway', Arial, sans-serif;
+	color:#808080;
+}
+
+.descripcionIni {
+	margin: 20px 0;
+	line-height: 1.3;
+}
+
+.descripcionIni a{
+  color:#fd9007;
+}
+
+.descripcionIni a:hover{
+  color:#464646;
+}
+
+/* Listas */
 .listContainer {
 	width: 950px;
 }
@@ -107,7 +132,6 @@ h2 {
 
 }
 
-
 .liCategory,
 .list ul li a{
 	color:#fd9007;
@@ -118,27 +142,10 @@ h2 {
 	color:#464646;
 
 }
-.parrafo{
-	margin: 30px 0;
-  text-indent: 20px;
-	font: normal 400 16px/1.4 'raleway', Arial, sans-serif;
-	color:#808080
-
-}
-
-.descripcionIni {
-	margin: 20px 0;
-	line-height: 1.3;
-}
-.descripcionIni a{
-  color:#fd9007;
-}
-.descripcionIni a:hover{
-  color:#464646;
-}
 
 .navLateral {
 	padding: 30px 25px;
+	margin-left: 20px;
 	border: 1px solid #cccccc;
 	height: min-content;
 	width: 300px;
