@@ -87,8 +87,11 @@ window.wheelzoom = (function(){
 
 			// Update the bg size:
 			if (deltaY < 0) {
-				bgWidth += bgWidth*settings.zoom;
-				bgHeight += bgHeight*settings.zoom;
+				if (bgWidth <= (width*maximoZoom)-width || bgHeight <= (height*maximoZoom)-height) {
+					bgWidth += bgWidth*settings.zoom;
+					bgHeight += bgHeight*settings.zoom;
+				}
+				
 			} else {
 				bgWidth -= bgWidth*settings.zoom;
 				bgHeight -= bgHeight*settings.zoom;
@@ -99,16 +102,15 @@ window.wheelzoom = (function(){
 				bgHeight = Math.min(height*settings.maxZoom, bgHeight);
 			}
 
-			console.log(bgPosX, bgPosY, offsetX, offsetY);
+			console.log(height*maximoZoom, width*maximoZoom, bgHeight, bgWidth);
 			// Prevent zooming in beyond the starting size
 			if (bgWidth >= width*maximoZoom || bgHeight >= height*maximoZoom) {
-				bgWidth = width*maximoZoom-1;
-				bgHeight = height*maximoZoom-1;
+				bgWidth = width*maximoZoom;
+				bgHeight = height*maximoZoom;
 			} else {
 				// Take the percent offset and apply it to the new size:
 				bgPosX = offsetX - (bgWidth * bgRatioX);
 				bgPosY = offsetY - (bgHeight * bgRatioY);
-				console.log(bgPosX, bgPosY, offsetX, offsetY);
 				updateBgStyle();
 			}
 			
