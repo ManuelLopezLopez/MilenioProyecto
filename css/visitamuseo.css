@@ -1,3 +1,4 @@
+/* Cuerpo */
 .mainContainer {
 	display: flex;
 	flex-direction: column;
@@ -17,9 +18,19 @@ hr {
 	border-top: 1px solid #cccccc;
 	margin: 20px 0px;
 }
-.redesSociales hr {
-	width: 90px;
+
+/* Textos */
+h2 {
+	margin-bottom: 20px;
 }
+
+.textContainer {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 h2.tercero{
 	font-size: 30px;
 	color:#808080;
@@ -32,6 +43,26 @@ h3.concurso{
 	margin-bottom: 10px;
 
 }
+
+.parrafo{
+	margin: 30px 0;
+	text-indent: 20px;
+	font: normal 400 16px/1.4 'raleway', Arial, sans-serif;
+	color: #808080;
+}
+
+.descripcionIni {
+	margin: 20px 0;
+	line-height: 1.3;
+}
+.descripcionIni a {
+	color: #fd9007;
+}
+.descripcionIni a:hover {
+	color: #464646;
+}
+
+/* Imágenes */
 .fotos img{
 	width:100%;
 	height: auto;
@@ -39,11 +70,16 @@ h3.concurso{
 
 }
 
+/* Redes Sociales */
 .redesSociales {
 	color: #808080;
 	margin-top: 50px;
 	font-weight: 700;
 	font-size: 12px;
+}
+
+.redesSociales hr {
+	width: 90px;
 }
 
 .compartir {
@@ -96,17 +132,7 @@ h3.concurso{
 	filter: invert(100%) sepia(0%) saturate(7461%) hue-rotate(31deg) brightness(109%) contrast(93%);
 }
 
-h2 {
-	margin-bottom: 20px;
-}
-
-.textContainer {
-	display: flex;
-	width: 100%;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
+/* Listas */
 .listContainer {
 	width: 950px;
 }
@@ -132,28 +158,9 @@ h2 {
 	color: #464646;
 }
 
-.parrafo{
-
-
-	margin: 30px 0;
-	text-indent: 20px;
-	font: normal 400 16px/1.4 'raleway', Arial, sans-serif;
-	color: #808080;
-}
-
-.descripcionIni {
-	margin: 20px 0;
-	line-height: 1.3;
-}
-.descripcionIni a {
-	color: #fd9007;
-}
-.descripcionIni a:hover {
-	color: #464646;
-}
-
 .navLateral {
 	padding: 30px 25px;
+	margin: 20px;
 	border: 1px solid #cccccc;
 	height: min-content;
 	width: 300px;

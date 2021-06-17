@@ -1,3 +1,4 @@
+/* Cuerpo */
 .mainContainer {
 	display: flex;
 	flex-direction: column;
@@ -17,6 +18,8 @@ hr {
 	border-top: 1px solid #cccccc;
 	margin: 20px 0px;
 }
+
+/* Redes Sociales */
 .redesSociales hr {
 	width: 90px;
 }
@@ -78,6 +81,7 @@ hr {
 	filter: invert(100%) sepia(0%) saturate(7461%) hue-rotate(31deg) brightness(109%) contrast(93%);
 }
 
+/* Textos */
 h2 {
 	margin-bottom: 20px;
 }
@@ -89,6 +93,23 @@ h2 {
 	justify-content: space-between;
 }
 
+.descripcionIni {
+	margin: 20px 0;
+	line-height: 1.3;
+}
+
+.enl {
+    font-size: 18px;
+    color: #fd9007;
+}
+
+.tx {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+/* Listas */
 .listContainer {
 	width: 950px;
 }
@@ -104,11 +125,6 @@ h2 {
 
 .liCategory ul li {
 	font-weight: bold;
-}
-
-.descripcionIni {
-	margin: 20px 0;
-	line-height: 1.3;
 }
 
 .navLateral {
@@ -152,15 +168,4 @@ h2 {
 	position: absolute;
 	left: -15px;
 	top: 4px;
-}
-
-.enl {
-    font-size: 18px;
-    color: #fd9007;
-}
-
-.tx {
-    font-size: 22px;
-    font-weight: normal;
-    margin: 10px 0;
 }
