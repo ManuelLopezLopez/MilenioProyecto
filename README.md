@@ -1,13 +1,13 @@
 # El Milenio En Almería
 
 Este proyecto es  una nueva versión del mismo ya creado en 2015 por nuestros compañeros:
--Carlos Cano Jiménez.
--Jorge Isla Molina.
--Luis Magaña Alcaraz.
--José Ramón Orozco Gómez.
--Stoyan Petrov Elenkov.
--Fco Javier Rodríguez Yedra.
- Nosotros Manuel López López ,Javier López Morales ,David Blanes Rigaud lo hemos adaptado  para que no se aloje en Wordpress y pueda ser visto por todos los usuarios.
+*Carlos Cano Jiménez*
+*Jorge Isla Molina*
+*Luis Magaña Alcaraz*
+*José Ramón Orozco Gómez*
+*Stoyan Petrov Elenkov*
+*Fco Javier Rodríguez Yedra*
+ Nosotros Manuel López López , Javier López Morales y David Blanes Rigaud lo hemos adaptado  para que no se aloje en Wordpress y pueda ser visto por todos los usuarios.
 
 ## Comenzando 🚀
 
