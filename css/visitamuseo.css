@@ -160,7 +160,7 @@ h3.concurso{
 
 .navLateral {
 	padding: 30px 25px;
-	margin: 20px;
+	margin-left: 20px;
 	border: 1px solid #cccccc;
 	height: min-content;
 	width: 300px;
