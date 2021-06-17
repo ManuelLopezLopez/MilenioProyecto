@@ -9,8 +9,23 @@ body {
 	display: flex;
 	flex-direction: column;
 	font: normal 400 24px/1 'ralewayregular', Arial, sans-serif;
+	color: white;
 }
 
+.container {
+	display: flex;
+	flex-direction: column;
+}
+/*  Bienvenida  */
+
+.Bienvenida {
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+/*Envoltorio general desde el header hasta el main container*/
 .wrap {
 	width: 100%;
 	position: absolute;
@@ -110,14 +125,27 @@ ul li {
 }
 
 /*Contenedor del titulo*/
-
-/* Contenedor del contenido de la pagina */
+.title {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	padding-top: 250px;
+	padding-bottom: 190px;
+	text-shadow: 1px 1px 3px #505050;
+}
 h1 {
 
     font-size: 61px;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
+/* Contenedor del contenido de la pagina */
+
+
 .mainContainer {
 	display:flex;
 	flex-direction: column;
@@ -140,6 +168,7 @@ h1 {
 	font: normal 400 28px/1 'raleway', Arial, sans-serif;
 
 }
+/*Folletos*/
 .folletos{
 	display:flex;
 	justify-content: center;
@@ -162,6 +191,9 @@ hr.separe {
 	line-height: 1.4;
 
 }
+h1 span {
+	color: #fd9007;
+}
 h2{
 	margin-left: 30px;
 	color:grey;
@@ -177,6 +209,7 @@ h3{
 
 
 }
+/*Imagenes de los articulos*/
 .slide-container li{
 	width:25%;
 	float:left;
